@@ -1,6 +1,7 @@
 import utilitarios
 import cadastro
 import protocolo
+import tramites
 
 def main():
     #LIMPA TABELAS
@@ -17,8 +18,9 @@ def main():
     # cadastro.cad_logradouro()
     # cadastro.cad_contribuinte()
     # protocolo.cadastro()
-    # utilitarios.acerta_interessado()
-    protocolo.tramites() 
+    #protocolo.atualizados()
+    tramites.cadastro()
+    tramites.atualizados() 
 
 if __name__ == "__main__":
     main()
